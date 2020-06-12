@@ -49,6 +49,5 @@ class LinkedList:
             node.set_next(prev)
             return node
         else:
-            print("self.head", self.head.value)
             self.reverse_list(node.get_next(), node)
             node.set_next(prev)
